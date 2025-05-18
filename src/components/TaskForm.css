@@ -1,0 +1,47 @@
+.input-container{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="text"]  {
+    width: 100% !important;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+}
+
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #45a049;
+}
+
+
+.btn-clear {
+    background-color: #f44336;
+    color: white;
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-clear:hover {
+    background-color: #e53935;
+}

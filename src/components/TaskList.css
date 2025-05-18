@@ -1,0 +1,61 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+}
+
+thead {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+tbody {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  border-right: 1px solid #ccc;
+}
+
+input[type="text"] {
+  width: 70% !important;
+}
+
+.update-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+td.action-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-separator {
+  width: 1px;
+  height: 24px; /* Adjust to match your button height */
+  background-color: #ccc;
+  margin: 0 10px;
+  vertical-align: middle;
+}
